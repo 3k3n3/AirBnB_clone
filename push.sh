@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#  This script aumates git add, commit and push by taking 
+#+ first argument as file and second argunment as commit message
 
 # Check if a file name and commit message were provided
 if [ -z "$1" ] || [ -z "$2" ]
